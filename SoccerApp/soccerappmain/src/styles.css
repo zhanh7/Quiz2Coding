@@ -1,0 +1,27 @@
+
+body {
+  font-family: "Segoe UI", -apple-system, sans-serif;
+  color:white;
+  margin:0px;
+  background: #00030a;
+}
+.btn {
+  cursor: pointer;
+  padding: 10px 15px;
+  background: #010a29;
+  font-size: 1.2em;
+  border: 0;
+  outline: None;
+  margin: 5px 10px 5px 0;
+  display: inline-block;
+  color:white;
+}
+
+.head{
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #010a29;
+}
+
+ 
