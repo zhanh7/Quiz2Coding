@@ -1,0 +1,24 @@
+form{
+  width: calc(100% - 40px);
+  border-radius: 0px;
+  padding-left:40px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+label{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+input{
+  padding-top:10px;
+  padding-bottom: 10px;
+  background-color: #9e9bc4;
+  width: calc(100% - 40px);
+}
+a{
+  padding-left: 40px;
+  color: white;
+}
+
+

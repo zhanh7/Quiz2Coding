@@ -1,0 +1,9 @@
+<div class = "head">
+    <button class="btn" (click)="disable(); Home = true;">Home</button>
+    <button class="btn" (click)="disable(); Myfollowed = true;">Myfollowed</button>
+    <button class="btn" (click)="disable(); Stats = true;">Stats</button>
+</div>
+<app-home *ngIf="Home"></app-home>
+<app-myfollowed *ngIf="Myfollowed"></app-myfollowed>
+<app-stats *ngIf="Stats"></app-stats>
+<router-outlet></router-outlet>
